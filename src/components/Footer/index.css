@@ -1,0 +1,15 @@
+.footerclass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.footericons {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.footerclass p {
+  font-size: 16px;
+  color: #3d3c3c;
+}

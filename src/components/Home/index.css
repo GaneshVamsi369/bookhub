@@ -1,0 +1,121 @@
+.homebagkground {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+.homebody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 0px;
+  padding: 70px;
+}
+.hometitle {
+  padding: 0px;
+  margin: 0px;
+  font-size: 40px;
+  color: #1e293b;
+}
+.homepara {
+  color: #475569;
+  font-size: 20px;
+  max-width: 998px;
+}
+.cardcontainer {
+  display: flex;
+  padding: 0px 50px;
+  border-radius: 8px;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0px 4px 16px 0px #606170;
+}
+.cardtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.loader-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-rated-card-btn {
+  border: 0px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.top-rated-book-image {
+  border-radius: 6px;
+  height: 20vh;
+  width: 18vw;
+}
+.top-rated-book-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+}
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'slick';
+  font-size: 20px;
+  line-height: 1;
+
+  opacity: 0.75;
+  color: #0284c7;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.top-rated-book-name {
+  font-size: 24px;
+  padding-left: 0px;
+}
+.top-rated-book-author {
+  font-size: 14px;
+  color: #475569;
+}
+.findbutton {
+  border: 0px;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 3px 8px;
+  height: 33px;
+  color: #fff;
+  background-color: #0284c7;
+}
+.btn1 {
+  display: none;
+}
+.failureview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  height: 100%;
+}
+.failureview img {
+  height: 170px;
+  width: 350px;
+}
+
+@media screen and (max-width: 992px) {
+  .btn1 {
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .btn2 {
+    display: none;
+  }
+  .failureview img {
+    width: 243px;
+    height: 120px;
+  }
+}

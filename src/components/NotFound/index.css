@@ -1,0 +1,34 @@
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.notfound img {
+  width: 448px;
+  height: 300px;
+}
+.notfound h1 {
+  color: #334155;
+  font-size: 32px;
+}
+.notfound p {
+  color: #475569;
+  font-size: 20px;
+  text-align: center;
+  width: 500px;
+}
+@media screen and (max-width: 786px) {
+  .notfound img {
+    width: 225px;
+    height: 150px;
+  }
+  .notfound p {
+    width: 300px;
+    font-size: 14px;
+  }
+  .notfound h1 {
+    font-size: 18px;
+  }
+}

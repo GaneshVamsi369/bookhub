@@ -1,0 +1,123 @@
+.bookshelvesbg {
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+.bookshelvesmain {
+  margin: 20px 10vw;
+  display: flex;
+  min-height: 70vh;
+}
+.sidenav {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  margin-right: 20px;
+}
+.bookshelvesoption {
+  list-style-type: none;
+  padding-left: 0px;
+  width: 156px;
+}
+.optionbtn {
+  border: 0px;
+  text-align: left;
+  background: transparent;
+  color: #475569;
+}
+.activeoptionbtn {
+  border: 0px;
+  background: transparent;
+  color: #0284c7;
+}
+.optiontitle {
+  color: #122731;
+  margin-top: 0px;
+}
+.bookshelvesbody {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.searchtitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.searchtitlehead {
+  font-size: 18px;
+  font-weight: 600;
+}
+.searchbar {
+  background-color: #fff;
+  border: 1px solid #edeff1;
+  border-radius: 5px;
+  height: 36px;
+  width: 256px;
+  display: flex;
+  justify-content: space-between;
+}
+.searchinput {
+  border: 0px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+.searchbtn {
+  border: 0px;
+  background: transparent;
+}
+.booklist {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+.bookshelvesoptionsm {
+  display: none;
+}
+.nobooks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nobooks img {
+  height: 327px;
+  width: 476px;
+}
+@media screen and (max-width: 992px) {
+  .sidenav {
+    display: none;
+  }
+  .searchtitlehead {
+    display: none;
+  }
+  .bookshelvesoptionsm {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    list-style-type: none;
+  }
+  .optionssm {
+    display: flex;
+  }
+  .optionbtnsm {
+    border: 1px solid #0284c7;
+    color: #0284c7;
+    border-radius: 20px;
+    background: transparent;
+    margin-right: 20px;
+  }
+  .activeoptionbtnsm {
+    border: 1px solid #0284c7;
+    color: #fff;
+    border-radius: 20px;
+    background: #0284c7;
+    margin-right: 20px;
+  }
+  .nobooks img {
+    height: 176px;
+    width: 257px;
+  }
+}

@@ -1,0 +1,102 @@
+.loginpage {
+  display: flex;
+  min-height: 100vh;
+  min-width: 576px;
+  background-color: #c4c4c4;
+}
+.logincontainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.loginimage {
+  height: 100%;
+  max-height: 1024px;
+  width: 50%;
+  max-width: 780px;
+}
+.loginform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  border: 0px;
+  background-color: #fff;
+  padding: 50px;
+}
+.formcontainer img {
+  width: 141px;
+  height: 48px;
+  align-self: center;
+  margin-bottom: 40px;
+}
+.inputcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 90px;
+}
+.inputcontainer label {
+  color: #5a7184;
+  line-height: 19px;
+  width: 88px;
+  height: 14px;
+  size: 16px;
+  margin-bottom: 15px;
+}
+.inputcontainer input {
+  height: 40px;
+  width: 360px;
+  font-size: 14px;
+  padding: 13px;
+  color: #183b56;
+  outline: none;
+}
+.formcontainer button {
+  width: 360px;
+  height: 40px;
+  background: #0284c7;
+  border: 0px;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 16px;
+}
+.errormsg {
+  color: #ef4444;
+  font-size: 14px;
+  margin-top: 0px;
+}
+@media screen and (max-width: 992px) {
+  .logincontainer {
+    flex-direction: column;
+  }
+  .loginpage {
+    background-color: #fff;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .loginimage {
+    height: 216px;
+    width: 216px;
+    border-radius: 100%;
+  }
+  .formcontainer img {
+    height: 28px;
+    width: 104px;
+  }
+  .inputcontainer {
+    width: 315px;
+  }
+  .inputcontainer input {
+    width: 314px;
+  }
+  .formcontainer button {
+    width: 314px;
+  }
+}

@@ -1,0 +1,46 @@
+.booklistli {
+  list-style-type: none;
+  display: flex;
+  width: 100%;
+}
+.link {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: #000;
+  width: 50%;
+}
+.booklistli img {
+  width: 133px;
+  height: 155px;
+  margin: 10px;
+}
+.bookdetails {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+.bookdetails h1 {
+  font-size: 16px;
+}
+.bookdetails p {
+  font-size: 14px;
+  color: #475569;
+  margin: 0px;
+  font-weight: 500;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+.star {
+  color: gold;
+  margin: 0px 8px;
+}
+.spanclass {
+  color: #0284c7;
+}
+@media screen and (max-width: 650px) {
+  .link {
+    width: 100%;
+  }
+}
