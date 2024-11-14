@@ -14,7 +14,7 @@ const Books = props => {
           <p>{authorname}</p>
           <div className="rating">
             <p>Avg Rating</p>
-            <BsFillStarFill className="star" testid="searchButton" />
+            <BsFillStarFill className="star" />
             <p>{rating}</p>
           </div>
           <p>
